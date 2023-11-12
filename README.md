@@ -8,7 +8,7 @@ PHP web application designed to automate the process of collecting job postings 
 
 - **`keywords`**: Indicates a department or a position.
 
-  - **Value**: `frontend`, `backend`, `data`, `full%20stack`, `mobile%20developer`, `design`, `technical%20writing`, `internship`
+  - **Value**: `frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `design`, `technical%20writing`, `internship`
 
 - **`location`**: Indicates location.
 
@@ -34,6 +34,10 @@ PHP web application designed to automate the process of collecting job postings 
 - **Full stack**
 
   - `?keywords=full%20stack&location=Croatia&refresh=true`
+
+- **DevOps**
+
+  - `?keywords=devops&location=Croatia&refresh=true`
 
 - **Mobile**
 
