@@ -5,6 +5,7 @@ $pages = [
     'backend' => '/backend',
     'data' => '/data',
     'full stack' => '/full-stack',
+    'devops' => '/devops',
     'mobile' => '/mobile',
     'design' => '/design',
     'technical writing' => '/technical-writing',
