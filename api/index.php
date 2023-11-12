@@ -1,4 +1,29 @@
 <?php
+if ($_SERVER['REQUEST_URI'] === '/frontend') {
+    include 'frontend.php';
+    exit;
+} elseif ($_SERVER['REQUEST_URI'] === '/backend') {
+    include 'backend.php';
+    exit;
+} elseif ($_SERVER['REQUEST_URI'] === '/data') {
+    include 'data.php';
+    exit;
+} elseif ($_SERVER['REQUEST_URI'] === '/full-stack') {
+    include 'full-stack.php';
+    exit;
+} elseif ($_SERVER['REQUEST_URI'] === '/mobile') {
+    include 'mobile.php';
+    exit;
+} elseif ($_SERVER['REQUEST_URI'] === '/design') {
+    include 'design.php';
+    exit;
+} elseif ($_SERVER['REQUEST_URI'] === '/technical-writing') {
+    include 'technical-writing.php';
+    exit;
+} elseif ($_SERVER['REQUEST_URI'] === '/internship') {
+    include 'internship.php';
+    exit;
+}
 ?>
 
 <!DOCTYPE html>
