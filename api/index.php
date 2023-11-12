@@ -11,6 +11,9 @@ if ($_SERVER['REQUEST_URI'] === '/frontend') {
 } elseif ($_SERVER['REQUEST_URI'] === '/full-stack') {
     include 'full-stack.php';
     exit;
+} elseif ($_SERVER['REQUEST_URI'] === '/devops') {
+    include 'devops.php';
+    exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/mobile') {
     include 'mobile.php';
     exit;
