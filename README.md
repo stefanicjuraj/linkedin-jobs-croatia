@@ -15,7 +15,7 @@ PHP web application designed to automate the process of collecting job postings 
   - **Value**: `Croatia`
 
 - **`refresh`**: Indicates a request to reload the content.
-  - **Value**: `True`
+  - **Value**: `true`
 
 ### Departments
 
