@@ -1,6 +1,15 @@
 <?php
 $page = basename($_SERVER['REQUEST_URI']);
-$pages = []
+$pages = [
+    'frontend' => '/frontend',
+    'backend' => '/backend',
+    'data' => '/data',
+    'full stack' => '/full-stack',
+    'mobile' => '/mobile',
+    'design' => '/design',
+    'technical writing' => '/technical-writing',
+    'internship' => '/internship'
+]
 ?>
 
 <nav class="fixed top-0 z-50 w-full bg-[#222] border-b border-gray-200">
