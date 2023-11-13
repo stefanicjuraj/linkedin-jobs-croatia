@@ -20,7 +20,7 @@ $pages = [
                 <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar" type="button" class="inline-flex items-center p-2 text-lg text-white rounded-lg sm:hidden focus:outline-none focus:ring-1 focus:ring-gray-500">
                     <ion-icon name="menu-outline"></ion-icon>
                 </button>
-                <a class="flex ml-2 md:mr-24">
+                <a class="flex ml-2 md:mr-24" href="/">
                     <span class="self-center text-xl text-white font-bold sm:text-2xl whitespace-nowrap">linkedin-scraper</span>
                 </a>
             </div>
