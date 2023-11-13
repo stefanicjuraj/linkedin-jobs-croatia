@@ -17,7 +17,7 @@ $pages = [
     <div class="px-3 py-3 lg:px-5 lg:pl-3">
         <div class="flex items-center justify-between">
             <div class="flex items-center justify-start">
-                <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar" type="button" class="inline-flex items-center p-2 text-lg text-white rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar" type="button" class="inline-flex items-center p-2 text-lg text-white rounded-lg sm:hidden focus:outline-none focus:ring-1 focus:ring-gray-500">
                     <ion-icon name="menu-outline"></ion-icon>
                 </button>
                 <a class="flex ml-2 md:mr-24">
