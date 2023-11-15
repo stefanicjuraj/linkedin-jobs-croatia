@@ -8,50 +8,52 @@ PHP web application designed to automate the process of collecting job postings 
 
 ### Query parameters
 
-- **`keywords`**: Indicates a department or a position.
+**`keywords`**: Indicates a department or a position.
 
-  - **Value**: `frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `design`, `technical%20writing`, `internship`
+**Value**: `frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `design`, `technical%20writing`, `internship`
 
-- **`location`**: Indicates location.
+**`location`**: Indicates location.
 
-  - **Value**: `Croatia`
+**Value**: `Croatia`
 
-- **`refresh`**: Indicates a request to reload the content.
-  - **Value**: `true`
+**`refresh`**: Indicates a request to reload the content.
+
+**Value**: `true`
 
 ### Departments
 
-- **Frontend**
+**Frontend**
 
-  - `?keywords=frontend&location=Croatia&refresh=true`
+`?keywords=frontend&location=Croatia&refresh=true`
 
-- **Backend**
+**Backend**
 
-  - `?keywords=backend&location=Croatia&refresh=true`
+`?keywords=backend&location=Croatia&refresh=true`
 
-- **Data**
+**Data**
 
-  - `?keywords=data&location=Croatia&refresh=true`
+`?keywords=data&location=Croatia&refresh=true`
 
-- **Full stack**
+**Full stack**
 
-  - `?keywords=full%20stack&location=Croatia&refresh=true`
+`?keywords=full%20stack&location=Croatia&refresh=true`
 
-- **DevOps**
+**DevOps**
 
-  - `?keywords=devops&location=Croatia&refresh=true`
+`?keywords=devops&location=Croatia&refresh=true`
 
-- **Mobile**
+**Mobile**
 
-  - `?keywords=mobile%20developer&location=Croatia&refresh=true`
+`?keywords=mobile%20developer&location=Croatia&refresh=true`
 
-- **Design**
+**Design**
 
-  - `?keywords=design&location=Croatia&refresh=true`
+`?keywords=design&location=Croatia&refresh=true`
 
-- **Technical writing**
+**Technical writing**
 
-  - `?keywords=technical%20writing&location=Croatia&refresh=true`
+`?keywords=technical%20writing&location=Croatia&refresh=true`
 
-- **Internship**
-  - `?keywords=internship&location=Croatia&refresh=true`
+**Internship**
+
+`?keywords=internship&location=Croatia&refresh=true`
