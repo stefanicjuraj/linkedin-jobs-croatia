@@ -1,6 +1,6 @@
 # linkedin-scraper
 
-<img src="./lib/assets/backend.png" height="70%" width="70%">
+<img src="./lib/assets/backend.png" height="80%" width="80%">
 
 <div align="justify">
 PHP web application designed to automate the process of collecting job postings from LinkedIn within the IT industry departments in Croatia. The application scrapes data by targeting URLs embedded with query parameters to list the corresponding job postings.
