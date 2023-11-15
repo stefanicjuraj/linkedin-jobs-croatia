@@ -10,15 +10,15 @@ PHP web application designed to automate the process of collecting job postings 
 
 **`keywords`**: Indicates a department or a position.
 
-**Value**: `frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `design`, `technical%20writing`, `internship`
+Value: `frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `design`, `technical%20writing`, `internship`
 
 **`location`**: Indicates location.
 
-**Value**: `Croatia`
+Value: `Croatia`
 
 **`refresh`**: Indicates a request to reload the content.
 
-**Value**: `true`
+Value: `true`
 
 ### Departments
 
