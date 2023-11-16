@@ -8,17 +8,11 @@ PHP web application designed to automate the process of collecting job postings 
 
 ### Query parameters
 
-**`keywords`**: Indicates a department or a position.
+**`keywords`**: `frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `design`, `technical%20writing`, `internship`
 
-Value: `frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `design`, `technical%20writing`, `internship`
+**`location`**: `Croatia`
 
-**`location`**: Indicates location.
-
-Value: `Croatia`
-
-**`refresh`**: Indicates a request to reload the content.
-
-Value: `true`
+**`refresh`**: `true`
 
 ### Departments
 
