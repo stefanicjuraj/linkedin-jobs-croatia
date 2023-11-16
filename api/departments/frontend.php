@@ -24,7 +24,7 @@
 
 <body>
 
-    <?php include 'sidebar.php' ?>
+    <?php require_once __DIR__ . '/../sidebar.php' ?>
 
     <div class="mt-10 p-4">
 

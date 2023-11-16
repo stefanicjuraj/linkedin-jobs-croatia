@@ -1,30 +1,30 @@
 <?php
 if ($_SERVER['REQUEST_URI'] === '/frontend') {
-    include 'frontend.php';
+    require_once __DIR__ . '/departments/frontend.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/backend') {
-    include 'backend.php';
+    require_once __DIR__ . '/departments/backend.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/data') {
-    include 'data.php';
+    require_once __DIR__ . '/departments/data.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/full-stack') {
-    include 'full-stack.php';
+    require_once __DIR__ . '/departments/full-stack.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/devops') {
-    include 'devops.php';
+    require_once __DIR__ . '/departments/devops.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/mobile') {
-    include 'mobile.php';
+    require_once __DIR__ . '/departments/mobile.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/design') {
-    include 'design.php';
+    require_once __DIR__ . '/departments/design.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/technical-writing') {
-    include 'technical-writing.php';
+    require_once __DIR__ . '/departments/technical-writing.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/internship') {
-    include 'internship.php';
+    require_once __DIR__ . '/departments/internship.php';
     exit;
 }
 ?>
