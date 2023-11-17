@@ -30,7 +30,7 @@
 
         <script type="text/javascript">
             rssfeed_url = new Array();
-            rssfeed_url[0] = "https://politepol.com/fd/eRb82jlU0Us2";
+            rssfeed_url[0] = "https://politepol.com/fd/VYOWLy0OlYE8";
             rssfeed_frame_width = "550";
             rssfeed_frame_height = "1000";
             rssfeed_scroll = "off";
@@ -64,7 +64,7 @@
             rssfeed_item_description_link_color = "#333";
             rssfeed_item_description_tag = "on";
             rssfeed_no_items = "0";
-            rssfeed_cache = "44ac5ce36a47137dca198a23e3e5de83";
+            rssfeed_cache = "05e76cc64384c8d08bd300e7a55686f9";
         </script>
 
     </div>
