@@ -64,7 +64,7 @@
             rssfeed_item_description_link_color = "#333";
             rssfeed_item_description_tag = "on";
             rssfeed_no_items = "0";
-            rssfeed_cache = "24af1d5cb0ed3509b4bc3221e059b283";
+            rssfeed_cache = "6c31cf11dca1aa8620c98aa0ab02816a";
         </script>
 
     </div>
