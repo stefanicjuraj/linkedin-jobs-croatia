@@ -1,16 +1,16 @@
 <?php
 $page = basename($_SERVER['REQUEST_URI']);
 $pages = [
-    'frontend' => '/frontend',
-    'backend' => '/backend',
-    'data' => '/data',
-    'full stack' => '/full-stack',
-    'devops' => '/devops',
-    'mobile' => '/mobile',
-    'quality assurance' => '/quality-assurance',
-    'design' => '/design',
-    'technical writing' => '/technical-writing',
-    'internship' => '/internship'
+    'Frontend' => '/frontend',
+    'Backend' => '/backend',
+    'Data' => '/data',
+    'Full Stack' => '/full-stack',
+    'DevOps' => '/devops',
+    'Mobile' => '/mobile',
+    'Quality Assurance' => '/quality-assurance',
+    'Design' => '/design',
+    'Technical Writing' => '/technical-writing',
+    'Internship' => '/internship'
 ]
 ?>
 
@@ -42,7 +42,7 @@ $pages = [
             <?php foreach ($pages as $name => $url) : ?>
                 <li>
                     <a href="<?php echo $url; ?>" class="flex items-center p-2 text-black rounded-lg hover:bg-gray-100 <?php echo ($page == $name) ? 'bg-gray-100' : ''; ?>">
-                        <span class="flex-1 ml-3"><?php echo ucfirst($name); ?></span>
+                        <span class="flex-1 ml-3"><?php echo $name ?></span>
                         <span class="inline-flex items-center justify-center">
                             <ion-icon name="chevron-forward-outline"></ion-icon>
                         </span>
