@@ -8,7 +8,7 @@ PHP web application designed to automate the process of collecting job postings 
 
 ### Query parameters
 
-**`keywords`**: `frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `design`, `technical%20writing`, `internship`
+**`keywords`**: `frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `qa`, `design`, `technical%20writing`, `internship`
 
 **`location`**: `Croatia`
 
@@ -39,6 +39,10 @@ PHP web application designed to automate the process of collecting job postings 
 **Mobile**
 
 `?keywords=mobile%20developer&location=Croatia&refresh=true`
+
+**Quality Assurance**
+
+`?keywords=qa&location=Croatia&refresh=true`
 
 **Design**
 
