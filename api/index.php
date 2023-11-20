@@ -17,6 +17,9 @@ if ($_SERVER['REQUEST_URI'] === '/frontend') {
 } elseif ($_SERVER['REQUEST_URI'] === '/mobile') {
     require_once __DIR__ . '/departments/mobile.php';
     exit;
+} elseif ($_SERVER['REQUEST_URI'] === '/quality-assurance') {
+    require_once __DIR__ . '/departments/quality-assurance.php';
+    exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/design') {
     require_once __DIR__ . '/departments/design.php';
     exit;
