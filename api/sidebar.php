@@ -7,6 +7,7 @@ $pages = [
     'full stack' => '/full-stack',
     'devops' => '/devops',
     'mobile' => '/mobile',
+    'quality assurance' => '/quality-assurance',
     'design' => '/design',
     'technical writing' => '/technical-writing',
     'internship' => '/internship'
