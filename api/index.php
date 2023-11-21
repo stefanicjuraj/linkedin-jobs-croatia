@@ -26,6 +26,9 @@ if ($_SERVER['REQUEST_URI'] === '/frontend') {
 } elseif ($_SERVER['REQUEST_URI'] === '/technical-writing') {
     require_once __DIR__ . '/departments/technical-writing.php';
     exit;
+} elseif ($_SERVER['REQUEST_URI'] === '/project-management') {
+    require_once __DIR__ . '/departments/project-management.php';
+    exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/internship') {
     require_once __DIR__ . '/departments/internship.php';
     exit;
