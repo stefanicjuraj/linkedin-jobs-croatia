@@ -10,11 +10,9 @@
 <br>
 </div>
 
-<div align="justify">
-PHP web application designed to automate viewing job postings from LinkedIn within the IT industry departments in Croatia. The application scrapes data by targeting URLs embedded with query parameters to list the corresponding job postings.
-</div>
+PHP web application designed to automate viewing job postings from LinkedIn within the IT industry departments in Croatia. The application displays data by utilizing an [RSS feed](https://politepol.com/) & [RSS widget](https://surfing-waves.com/feed.htm) to target URLs embedded with query parameters to display the corresponding job postings.
 
-### Query parameters
+### URL & Query Parameters
 
 **Base URL**: `https://www.linkedin.com/jobs/search/`
 
