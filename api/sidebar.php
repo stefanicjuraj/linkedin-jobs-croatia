@@ -10,6 +10,7 @@ $pages = [
     'Quality Assurance' => '/quality-assurance',
     'Design' => '/design',
     'Technical Writing' => '/technical-writing',
+    'Project Management' => '/project-management',
     'Internship' => '/internship'
 ]
 ?>
