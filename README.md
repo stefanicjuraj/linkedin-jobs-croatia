@@ -2,6 +2,14 @@
 
 <img src="./lib/assets/backend.png" height="100%" width="100%">
 
+<div align="center">
+<br>
+
+**[Open Application](https://linkedin-scraper-web.vercel.app/)**
+
+<br>
+</div>
+
 <div align="justify">
 PHP web application designed to automate viewing job postings from LinkedIn within the IT industry departments in Croatia. The application scrapes data by targeting URLs embedded with query parameters to list the corresponding job postings.
 </div>
