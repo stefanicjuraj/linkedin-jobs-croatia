@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_URI'] === '/frontend') {
             <div class="flex flex-col items-center justify-center">
                 <h1 class="text-4xl font-extrabold text-center">linkedin-scraper</h1>
                 <p class="mt-8 w-2/3 sm:w-1/3 text-xl text-center">
-                    PHP web application designed to automate the process of collecting job postings from LinkedIn within the IT industry departments in Croatia.
+                    PHP web application designed to automate viewing job postings from LinkedIn within the IT industry departments in Croatia.
                 </p>
                 <a class="mt-8 px-8 py-4 text-base font-medium text-center inline-flex items-center text-black bg-gray-100 rounded-lg">
                     View all positions
