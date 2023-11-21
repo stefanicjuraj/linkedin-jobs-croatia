@@ -8,54 +8,38 @@ PHP web application designed to automate viewing job postings from LinkedIn with
 
 ### Query parameters
 
-**`keywords`**: `frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `qa`, `design`, `technical%20writing`, `project%20management`, `internship`
+**Base URL path**:
 
-**`location`**: `Croatia`
+`https://www.linkedin.com/jobs/search/`
 
-**`refresh`**: `true`
+**Keywords**:
+
+`frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `qa`, `design`, `technical%20writing`, `project%20management`, `internship`
+
+**Location**: `Croatia`
+
+**Refresh**: `true`
 
 ### Departments
 
-**Frontend**
+- **Frontend**
 
-`?keywords=frontend&location=Croatia&refresh=true`
+- **Backend**
 
-**Backend**
+- **Data**
 
-`?keywords=backend&location=Croatia&refresh=true`
+- **Full stack**
 
-**Data**
+- **DevOps**
 
-`?keywords=data&location=Croatia&refresh=true`
+- **Mobile**
 
-**Full stack**
+- **Quality Assurance**
 
-`?keywords=full%20stack&location=Croatia&refresh=true`
+- **Design**
 
-**DevOps**
+- **Technical writing**
 
-`?keywords=devops&location=Croatia&refresh=true`
+- **Project Management**
 
-**Mobile**
-
-`?keywords=mobile%20developer&location=Croatia&refresh=true`
-
-**Quality Assurance**
-
-`?keywords=qa&location=Croatia&refresh=true`
-
-**Design**
-
-`?keywords=design&location=Croatia&refresh=true`
-
-**Technical writing**
-
-`?keywords=technical%20writing&location=Croatia&refresh=true`
-
-**Project Management**
-
-`?keywords=project%20management&location=Croatia&refresh=true`
-
-**Internship**
-
-`?keywords=internship&location=Croatia&refresh=true`
+- **Internship**
