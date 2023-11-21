@@ -8,7 +8,7 @@ PHP web application designed to automate viewing job postings from LinkedIn with
 
 ### Query parameters
 
-**`keywords`**: `frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `qa`, `design`, `technical%20writing`, `internship`
+**`keywords`**: `frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `qa`, `design`, `technical%20writing`, `project%20management`, `internship`
 
 **`location`**: `Croatia`
 
@@ -51,6 +51,10 @@ PHP web application designed to automate viewing job postings from LinkedIn with
 **Technical writing**
 
 `?keywords=technical%20writing&location=Croatia&refresh=true`
+
+**Project Management**
+
+`?keywords=project%20management&location=Croatia&refresh=true`
 
 **Internship**
 
