@@ -16,13 +16,9 @@ PHP web application designed to automate viewing job postings from LinkedIn with
 
 ### Query parameters
 
-**Base URL path**:
+**Base URL**: `https://www.linkedin.com/jobs/search/`
 
-`https://www.linkedin.com/jobs/search/`
-
-**Keywords**:
-
-`frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `qa`, `design`, `technical%20writing`, `project%20management`, `internship`
+**Keywords**: `frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `qa`, `design`, `technical%20writing`, `project%20management`, `internship`
 
 **Location**: `Croatia`
 
