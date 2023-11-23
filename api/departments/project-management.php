@@ -48,7 +48,7 @@
             rssfeed_font_size = "15";
             rssfeed_font_face = "Arial, sans-serif";
             rssfeed_border = "off";
-            rssfeed_css_url = "https://scraper-css.vercel.app/linkedin-scraper.css";
+            rssfeed_css_url = "https://scraper-widget.vercel.app/linkedin-scraper.css";
             rssfeed_title = "off";
             rssfeed_title_name = "";
             rssfeed_title_bgcolor = "#333";
@@ -78,7 +78,7 @@
     </div>
 
     <!-- script -->
-    <script type="text/javascript" src="https://scraper-css.vercel.app/app.js"></script>
+    <script type="text/javascript" src="https://scraper-widget.vercel.app/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
 
 </body>
