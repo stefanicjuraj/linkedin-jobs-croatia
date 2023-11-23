@@ -12,15 +12,21 @@
 
 PHP web application designed to automate viewing job postings from LinkedIn within the IT industry departments in Croatia. The application displays data by utilizing an [RSS feed](https://politepol.com/) & [RSS widget](https://surfing-waves.com/feed.htm) to target URLs embedded with query parameters to display the corresponding job postings.
 
-### URL & Query Parameters
+<hr />
 
-**Base URL**: `https://www.linkedin.com/jobs/search/`
+**GET**: `https://www.linkedin.com/jobs/search/{?keywords}{&location}{&refresh}`
 
-**Keywords**: `frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `qa`, `design`, `technical%20writing`, `project%20management`, `internship`
+- **URL**: `https://www.linkedin.com/jobs/search/`
 
-**Location**: `Croatia`
+- **Keywords**: `frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `qa`, `design`, `technical%20writing`, `project%20management`, `internship`
 
-**Refresh**: `true`
+- **Location**: `Croatia`
+
+- **Refresh**: `true`
+
+**Example**: `https://www.linkedin.com/jobs/search/?keywords=backend&location=Croatia&refresh=true`
+
+<hr />
 
 ### Departments
 
