@@ -14,7 +14,7 @@ PHP web application designed to automate viewing job postings from LinkedIn with
 
 <hr />
 
-**GET**: `https://www.linkedin.com/jobs/search/{?keywords}{&location}{&refresh}`
+**GET**: `https://www.linkedin.com/jobs/search/?{keywords}&{location}&{refresh}`
 
 - **URL**: `https://www.linkedin.com/jobs/search/`
 
