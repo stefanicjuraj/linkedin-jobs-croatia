@@ -1,36 +1,36 @@
 <?php
 if ($_SERVER['REQUEST_URI'] === '/frontend') {
-    require_once __DIR__ . '/departments/frontend.php';
+    require_once __DIR__ . '/departments/frontend/frontend.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/backend') {
-    require_once __DIR__ . '/departments/backend.php';
+    require_once __DIR__ . '/departments/backend/backend.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/data') {
-    require_once __DIR__ . '/departments/data.php';
+    require_once __DIR__ . '/departments/data/data.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/full-stack') {
-    require_once __DIR__ . '/departments/full-stack.php';
+    require_once __DIR__ . '/departments/full-stack/full-stack.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/devops') {
-    require_once __DIR__ . '/departments/devops.php';
+    require_once __DIR__ . '/departments/devops/devops.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/mobile') {
-    require_once __DIR__ . '/departments/mobile.php';
+    require_once __DIR__ . '/departments/mobile/mobile.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/quality-assurance') {
-    require_once __DIR__ . '/departments/quality-assurance.php';
+    require_once __DIR__ . '/departments/quality-assurance/quality-assurance.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/design') {
-    require_once __DIR__ . '/departments/design.php';
+    require_once __DIR__ . '/departments/design/design.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/technical-writing') {
-    require_once __DIR__ . '/departments/technical-writing.php';
+    require_once __DIR__ . '/departments/technical-writing/technical-writing.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/project-management') {
-    require_once __DIR__ . '/departments/project-management.php';
+    require_once __DIR__ . '/departments/project-management/project-management.php';
     exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/internship') {
-    require_once __DIR__ . '/departments/internship.php';
+    require_once __DIR__ . '/departments/internship/internship.php';
     exit;
 }
 ?>

@@ -32,13 +32,13 @@
 
 <body>
 
-    <?php require_once __DIR__ . '/../sidebar.php' ?>
+    <?php require_once __DIR__ . '/../../sidebar.php' ?>
 
     <div class="mt-10 p-4">
 
         <script type="text/javascript">
             rssfeed_url = new Array();
-            rssfeed_url[0] = "https://politepol.com/fd/XNC7LQkC3uEj";
+            rssfeed_url[0] = "https://politepol.com/fd/Wku0KYT8pUXh";
             rssfeed_frame_width = "550";
             rssfeed_frame_height = "1000";
             rssfeed_scroll = "off";
@@ -72,7 +72,7 @@
             rssfeed_item_description_link_color = "#333";
             rssfeed_item_description_tag = "on";
             rssfeed_no_items = "0";
-            rssfeed_cache = "287cb6a2b0e46fc228ea2a43005489c4";
+            rssfeed_cache = "5c7476cb92f567799721baf4b7df166d";
         </script>
 
     </div>
