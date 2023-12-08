@@ -1,11 +1,11 @@
-# linkedin-scraper
+# linkedin-jobs-croatia
 
 <img src="./lib/assets/backend.png" height="100%" width="100%">
 
 <div align="center">
 <br>
 
-**[Open Application](https://linkedin-scraper-web.vercel.app/)**
+**[Open Application](https://linkedin-jobs-croatia.vercel.app/)**
 
 <br>
 </div>
