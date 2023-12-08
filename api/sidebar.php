@@ -1,18 +1,18 @@
 <?php
 $page = basename($_SERVER['REQUEST_URI']);
 $pages = [
-    'Frontend' => '/frontend',
-    'Backend' => '/backend',
-    'Data' => '/data',
-    'Full Stack' => '/full-stack',
-    'DevOps' => '/devops',
-    'Mobile' => '/mobile',
-    'Quality Assurance' => '/quality-assurance',
-    'Design' => '/design',
-    'Technical Writing' => '/technical-writing',
-    'Project Management' => '/project-management',
-    'Internship' => '/internship'
-]
+    'Frontend' => ['url' => '/frontend', 'icon' => 'desktop-outline'],
+    'Backend' => ['url' => '/backend', 'icon' => 'server-outline'],
+    'Data' => ['url' => '/data', 'icon' => 'analytics-outline'],
+    'Full Stack' => ['url' => '/full-stack', 'icon' => 'code-working-outline'],
+    'DevOps' => ['url' => '/devops', 'icon' => 'cloud-upload-outline'],
+    'Mobile' => ['url' => '/mobile', 'icon' => 'phone-portrait-outline'],
+    'Quality Assurance' => ['url' => '/quality-assurance', 'icon' => 'checkmark-circle-outline'],
+    'Design' => ['url' => '/design', 'icon' => 'color-palette-outline'],
+    'Technical Writing' => ['url' => '/technical-writing', 'icon' => 'document-text-outline'],
+    'Project Management' => ['url' => '/project-management', 'icon' => 'bar-chart-outline'],
+    'Internship' => ['url' => '/internship', 'icon' => 'school']
+];
 ?>
 
 <nav class="fixed top-0 z-50 py-1 w-full bg-[#222] border-b border-gray-200">
@@ -40,9 +40,12 @@ $pages = [
 <aside id="logo-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen pt-24 transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0" aria-label="Sidebar">
     <div class="h-full px-3 pb-4 overflow-y-auto bg-white">
         <ul class="space-y-2 font-medium">
-            <?php foreach ($pages as $name => $url) : $isActive = rtrim($url, '/') === '/' . $page; ?>
+            <?php foreach ($pages as $name => $pageDetails) :
+                $isActive = $page !== null && rtrim($pageDetails['url'], '/') === '/' . $page;
+            ?>
                 <li>
-                    <a href="<?php echo $url; ?>" class="flex items-center p-2 text-black rounded-lg hover:bg-gray-100 <?php if ($isActive) echo 'bg-gray-100'; ?>">
+                    <a href="<?php echo $pageDetails['url']; ?>" class="flex items-center p-2 text-black rounded-lg hover:bg-gray-100 <?php if ($isActive) echo 'bg-gray-100'; ?>">
+                        <ion-icon name="<?php echo $pageDetails['icon']; ?>" class="h-5 w-5"></ion-icon>
                         <span class="flex-1 ml-3"><?php echo $name ?></span>
                         <span class="inline-flex items-center justify-center">
                             <ion-icon name="chevron-forward-outline"></ion-icon>
