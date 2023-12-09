@@ -18,7 +18,7 @@ PHP web application designed to automate viewing job postings from LinkedIn with
 
 - **URL**: `https://www.linkedin.com/jobs/search/`
 
-- **Keywords**: `frontend`, `backend`, `data`, `full%20stack`, `devops`, `mobile%20developer`, `qa`, `design`, `technical%20writing`, `project%20management`, `internship`
+- **Keywords**: `frontend`, `backend`, `data`, `full%20stack`, `devops`, `system%20engineering`, `mobile%20developer`, `qa`, `design`, `technical%20writing`, `project%20management`, `internship`
 
 - **Location**: `Croatia`
 
@@ -39,6 +39,8 @@ PHP web application designed to automate viewing job postings from LinkedIn with
 - **Full stack**
 
 - **DevOps**
+
+- **System Engineering**
 
 - **Mobile**
 
