@@ -33,7 +33,7 @@ PHP web application designed to automate viewing job postings from LinkedIn with
 
 **Example**:
 
-    `https://www.linkedin.com/jobs/search/?keywords=backend&location=Croatia&refresh=true`
+    https://www.linkedin.com/jobs/search/?keywords=backend&location=Croatia&refresh=true
 
 
 ## Departments
