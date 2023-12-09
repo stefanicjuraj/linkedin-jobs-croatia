@@ -6,6 +6,7 @@ $pages = [
     'Data' => ['url' => '/data', 'icon' => 'analytics-outline'],
     'Full Stack' => ['url' => '/full-stack', 'icon' => 'code-working-outline'],
     'DevOps' => ['url' => '/devops', 'icon' => 'cloud-upload-outline'],
+    'System Engineering' => ['url' => '/system-engineering', 'icon' => 'construct-outline'],
     'Mobile' => ['url' => '/mobile', 'icon' => 'phone-portrait-outline'],
     'Quality Assurance' => ['url' => '/quality-assurance', 'icon' => 'checkmark-circle-outline'],
     'Design' => ['url' => '/design', 'icon' => 'color-palette-outline'],
