@@ -5,7 +5,7 @@
 <div align="center">
 <br>
 
-**[Open Application](https://linkedin-jobs-croatia.vercel.app/)**
+**[linkedin-jobs-croatia.vercel.app](https://linkedin-jobs-croatia.vercel.app/)**
 
 <br>
 </div>
