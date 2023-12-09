@@ -32,6 +32,9 @@ if ($_SERVER['REQUEST_URI'] === '/frontend') {
 } elseif ($_SERVER['REQUEST_URI'] === '/project-management') {
     require_once __DIR__ . '/departments/project-management/project-management.php';
     exit;
+} elseif ($_SERVER['REQUEST_URI'] === '/it-support') {
+    require_once __DIR__ . '/departments/it-support/it-support.php';
+    exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/internship') {
     require_once __DIR__ . '/departments/internship/internship.php';
     exit;
