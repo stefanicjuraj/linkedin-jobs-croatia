@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_URI'] === '/frontend') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>linkedin-scraper</title>
+    <title>linkedin-jobs-croatia</title>
     <!-- css -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font -->
