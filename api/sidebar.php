@@ -23,7 +23,7 @@ $pages = [
                     <ion-icon name="menu-outline"></ion-icon>
                 </button>
                 <a class="flex ml-2 md:mr-24" href="/">
-                    <span class="self-center text-xl text-white font-bold sm:text-2xl whitespace-nowrap">linkedin-scraper</span>
+                    <span class="self-center text-xl text-white font-bold sm:text-2xl whitespace-nowrap">linkedin-jobs-croatia</span>
                 </a>
             </div>
             <div class="flex items-center">
