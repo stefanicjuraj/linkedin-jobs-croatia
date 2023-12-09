@@ -14,6 +14,9 @@ if ($_SERVER['REQUEST_URI'] === '/frontend') {
 } elseif ($_SERVER['REQUEST_URI'] === '/devops') {
     require_once __DIR__ . '/departments/devops/devops.php';
     exit;
+} elseif ($_SERVER['REQUEST_URI'] === '/system-engineering') {
+    require_once __DIR__ . '/departments/system-engineering/system-engineering.php';
+    exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/mobile') {
     require_once __DIR__ . '/departments/mobile/mobile.php';
     exit;
