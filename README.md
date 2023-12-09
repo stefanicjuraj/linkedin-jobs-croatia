@@ -7,6 +7,8 @@
 
 **[linkedin-jobs-croatia.vercel.app](https://linkedin-jobs-croatia.vercel.app/)**
 
+![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=linkedin-jobs-croatia&style=for-the-badge)
+
 <br>
 </div>
 
