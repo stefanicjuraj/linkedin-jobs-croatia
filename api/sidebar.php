@@ -12,6 +12,7 @@ $pages = [
     'Design' => ['url' => '/design', 'icon' => 'color-palette-outline'],
     'Technical Writing' => ['url' => '/technical-writing', 'icon' => 'document-text-outline'],
     'Project Management' => ['url' => '/project-management', 'icon' => 'bar-chart-outline'],
+    'IT Support' => ['url' => '/it-support', 'icon' => 'settings-outline'],
     'Internship' => ['url' => '/internship', 'icon' => 'school']
 ];
 ?>
