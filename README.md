@@ -1,6 +1,6 @@
 # linkedin-jobs-croatia
 
-<img src="./lib/assets/backend.png" height="100%" width="100%">
+<img src="./lib/assets/home.png" height="100%" width="100%">
 
 <div align="center">
 <br>
