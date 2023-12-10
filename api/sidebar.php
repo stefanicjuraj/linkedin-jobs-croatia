@@ -56,6 +56,11 @@ $pages = [
                 </li>
             <?php endforeach; ?>
         </ul>
+        <div class="absolute bottom-0 left-0 right-0 flex justify-center pb-4">
+            <a href="https://github.com/stefanicjuraj/linkedin-jobs-croatia">
+                <ion-icon name="logo-github" class="h-7 w-7"></ion-icon>
+            </a>
+        </div>
     </div>
 </aside>
 
