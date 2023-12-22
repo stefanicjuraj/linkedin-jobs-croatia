@@ -10,6 +10,7 @@ $pages = [
     'Cybersecurity' => ['url' => '/cybersecurity', 'icon' => 'shield-checkmark-outline'],
     'AI & Machine Learning' => ['url' => '/ai-machine-learning', 'icon' => 'rocket-outline'],
     'Mobile' => ['url' => '/mobile', 'icon' => 'phone-portrait-outline'],
+    'Game' => ['url' => '/game', 'icon' => 'game-controller-outline'],
     'Quality Assurance' => ['url' => '/quality-assurance', 'icon' => 'checkmark-circle-outline'],
     'Design' => ['url' => '/design', 'icon' => 'color-palette-outline'],
     'Technical Writing' => ['url' => '/technical-writing', 'icon' => 'document-text-outline'],
