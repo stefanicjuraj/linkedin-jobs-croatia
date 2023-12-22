@@ -20,6 +20,9 @@ if ($_SERVER['REQUEST_URI'] === '/frontend') {
 } elseif ($_SERVER['REQUEST_URI'] === '/cybersecurity') {
     require_once __DIR__ . '/departments/cybersecurity/cybersecurity.php';
     exit;
+} elseif ($_SERVER['REQUEST_URI'] === '/ai-machine-learning') {
+    require_once __DIR__ . '/departments/ai-machine-learning/ai-machine-learning.php';
+    exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/mobile') {
     require_once __DIR__ . '/departments/mobile/mobile.php';
     exit;
