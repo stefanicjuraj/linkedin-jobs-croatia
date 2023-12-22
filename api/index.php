@@ -17,6 +17,9 @@ if ($_SERVER['REQUEST_URI'] === '/frontend') {
 } elseif ($_SERVER['REQUEST_URI'] === '/system-network') {
     require_once __DIR__ . '/departments/system-network/system-network.php';
     exit;
+} elseif ($_SERVER['REQUEST_URI'] === '/cloud') {
+    require_once __DIR__ . '/departments/cloud/cloud.php';
+    exit;
 } elseif ($_SERVER['REQUEST_URI'] === '/cybersecurity') {
     require_once __DIR__ . '/departments/cybersecurity/cybersecurity.php';
     exit;
