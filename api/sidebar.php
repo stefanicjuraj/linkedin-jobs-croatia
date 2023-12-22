@@ -7,6 +7,7 @@ $pages = [
     'Full Stack' => ['url' => '/full-stack', 'icon' => 'code-working-outline'],
     'DevOps' => ['url' => '/devops', 'icon' => 'cloud-upload-outline'],
     'System & Network' => ['url' => '/system-network', 'icon' => 'construct-outline'],
+    'Cloud' => ['url' => '/cloud', 'icon' => 'cloud-outline'],
     'Cybersecurity' => ['url' => '/cybersecurity', 'icon' => 'shield-checkmark-outline'],
     'AI & Machine Learning' => ['url' => '/ai-machine-learning', 'icon' => 'rocket-outline'],
     'Mobile' => ['url' => '/mobile', 'icon' => 'phone-portrait-outline'],
