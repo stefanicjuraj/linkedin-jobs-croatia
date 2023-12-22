@@ -21,7 +21,7 @@ PHP web application designed to automate viewing job postings from LinkedIn with
 
 - **Keywords**:
 
-    `frontend`, `backend`, `data`, `full%20stack`, `devops`, `system%20engineering`, `network%20engineering`, `cybersecurity`, `ai%20machine%20learning`, `mobile%20developer`, `qa`, `design`, `technical%20writing`, `project%20management`, `it%20support`, `internship`
+    `frontend`, `backend`, `data`, `full%20stack`, `devops`, `system%20engineering`, `network%20engineering`, `cybersecurity`, `ai%20machine%20learning`, `mobile%20developer`, `game%20development`, `qa`, `design`, `technical%20writing`, `project%20management`, `it%20support`, `internship`
 
 - **Location**:
 
@@ -55,6 +55,8 @@ PHP web application designed to automate viewing job postings from LinkedIn with
 - **[AI & Machine Learning](https://linkedin-jobs-croatia.vercel.app/cybersecurity)**
 
 - **[Mobile](https://linkedin-jobs-croatia.vercel.app/mobile)**
+
+- **[Game](https://linkedin-jobs-croatia.vercel.app/game)**
 
 - **[Quality Assurance](https://linkedin-jobs-croatia.vercel.app/quality-assurance)**
 
