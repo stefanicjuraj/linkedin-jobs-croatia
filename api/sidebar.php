@@ -8,6 +8,7 @@ $pages = [
     'DevOps' => ['url' => '/devops', 'icon' => 'cloud-upload-outline'],
     'System & Network' => ['url' => '/system-network', 'icon' => 'construct-outline'],
     'Cybersecurity' => ['url' => '/cybersecurity', 'icon' => 'shield-checkmark-outline'],
+    'AI & Machine Learning' => ['url' => '/ai-machine-learning', 'icon' => 'rocket-outline'],
     'Mobile' => ['url' => '/mobile', 'icon' => 'phone-portrait-outline'],
     'Quality Assurance' => ['url' => '/quality-assurance', 'icon' => 'checkmark-circle-outline'],
     'Design' => ['url' => '/design', 'icon' => 'color-palette-outline'],
