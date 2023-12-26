@@ -45,12 +45,12 @@ $pages = [
 
 <aside id="logo-sidebar" class="fixed top-0 left-0 z-40 w-72 h-screen pt-24 transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0" aria-label="Sidebar">
     <div class="h-full px-3 pb-4 overflow-y-auto bg-white">
-        <ul class="space-y-2 font-medium">
+        <ul class="space-y-1 font-medium">
             <?php foreach ($pages as $name => $pageDetails) :
                 $isActive = $page !== null && rtrim($pageDetails['url'], '/') === '/' . $page;
             ?>
                 <li>
-                    <a href="<?php echo $pageDetails['url']; ?>" class="flex items-center p-2 text-black rounded-lg hover:bg-gray-100 <?php if ($isActive) echo 'bg-gray-100'; ?>">
+                    <a href="<?php echo $pageDetails['url']; ?>" class="flex items-center p-2 text-sm text-black rounded-lg hover:bg-gray-100 <?php if ($isActive) echo 'bg-gray-100'; ?>">
                         <ion-icon name="<?php echo $pageDetails['icon']; ?>" class="h-5 w-5"></ion-icon>
                         <span class="flex-1 ml-3"><?php echo $name ?></span>
                         <span class="inline-flex items-center justify-center">
@@ -60,11 +60,11 @@ $pages = [
                 </li>
             <?php endforeach; ?>
         </ul>
-        <div class="absolute bottom-0 left-0 right-0 flex justify-center pb-4">
+        <!-- <div class="absolute bottom-0 left-0 right-0 flex justify-center pb-4">
             <a href="https://github.com/stefanicjuraj/linkedin-jobs-croatia">
                 <ion-icon name="logo-github" class="h-7 w-7"></ion-icon>
             </a>
-        </div>
+        </div> -->
     </div>
 </aside>
 
